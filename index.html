@@ -6,9 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moh Diki Setia Dermawan</title>
 
+    <link rel="shortcut icon" href="image/" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
     />
 
     <!-- font awesome cdn link -->
@@ -22,17 +31,21 @@
   </head>
   <body>
     <!-- header section starts -->
-    <header>
-      <div id="menu" class="fas fa-bars"></div>
+    <header class="header">
+      <a href="#" class="logo" style="text-decoration: none"
+        ><i class="fa-solid fa-user-gear"></i> Diki Sulung.
+      </a>
 
       <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">Keterampilan Koding</a>
-        <a href="#servis">Servis Kami</a>
-        <a href="#order">Cara Order</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Kontak dan Media Sosial</a>
+        <a href="#home" style="text-decoration: none">home</a>
+        <a href="#about" style="text-decoration: none">Keterampilan</a>
+        <a href="#servis" style="text-decoration: none">servis</a>
+        <a href="#order" style="text-decoration: none">order</a>
+        <a href="#contact" style="text-decoration: none">Kontak</a>
+        <a href="#portfolio" style="text-decoration: none">portfolio</a>
       </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
     </header>
     <!-- header section ends -->
 
@@ -43,15 +56,15 @@
       </div>
 
       <div class="content">
-        <h1 class="hello">Assalamualaikum...</h1>
-        <h3>Saya <span>Moh Diki Setia Dermawan</span></h3>
+        <h4 class="hello">Assalamualaikum...</h4>
+        <h3>Saya <span>Diki Sulung</span></h3>
         <p>
           Saya Freelancer Web Depelovment membuka jasa untuk membuat portfolio
           yang akhir - akhir ini sangat berguna bagi mahasiswa freshgraduate
           untuk melamar pekerjaan, selain website portfolio membuka jasa
           pembuatan website e-commerce, pendidikan dll.
         </p>
-        <a href="#about" class="btn">Hubungi Saya</a>
+        <a href="#contact" class="btn">Hubungi Saya</a>
       </div>
     </section>
     <!-- home section ends -->
@@ -64,51 +77,51 @@
       </h1>
 
       <div class="box">
-        <div class="icons">
+        <div class="icons" style="cursor: pointer">
           <i class="fa-brands fa-html5"></i>
           <p>HTML <span>5</span></p>
         </div>
-        <div class="icons">
+        <div class="icons" style="cursor: pointer">
           <i class="fa-brands fa-css3-alt"></i>
           <p>CSS <span>3</span></p>
         </div>
-        <div class="icons">
+        <div class="icons" style="cursor: pointer">
           <i class="fa-brands fa-square-js"></i>
           <p>Java <span>Script</span></p>
         </div>
-        <div class="icons">
+        <div class="icons" style="cursor: pointer">
           <i class="fa-brands fa-php"></i>
           <p>PHP</p>
         </div>
-        <div class="icons">
+        <div class="icons" style="cursor: pointer">
           <i class="fa-brands fa-bootstrap"></i>
           <p>Bootstrap</p>
         </div>
-        <div class="icons">
+        <div class="icons" style="cursor: pointer">
           <i class="fa-brands fa-sass"></i>
           <p>Sass</p>
         </div>
-        <div class="icons">
+        <div class="icons" style="cursor: pointer">
           <i class="fa-brands fa-react"></i>
           <p>React <span>Js</span></p>
         </div>
-        <div class="icons">
+        <div class="icons" style="cursor: pointer">
           <i class="fa-brands fa-vuejs"></i>
           <p>Vue <span>Js</span></p>
         </div>
-        <div class="icons">
+        <div class="icons" style="cursor: pointer">
           <i class="fa-solid fa-fire"></i>
           <p>Code<span>igneter</span></p>
         </div>
-        <div class="icons">
+        <div class="icons" style="cursor: pointer">
           <i class="fa-brands fa-laravel"></i>
           <p>Laravel</p>
         </div>
-        <div class="icons">
+        <div class="icons" style="cursor: pointer">
           <i class="fa-solid fa-database"></i>
           <p>Database <span>| MySQL</span></p>
         </div>
-        <div class="icons">
+        <div class="icons" style="cursor: pointer">
           <i class="fa-brands fa-github"></i>
           <p>Git<span>Hub</span></p>
         </div>
@@ -120,7 +133,7 @@
     <section class="servis" id="servis">
       <h1 class="heading">Servis <span>Kami</span></h1>
       <div class="box">
-        <div class="box-id">
+        <div class="box-id" style="cursor: pointer">
           <img src="image/p2.png" alt="" />
           <h3>Website Development</h3>
           <p>
@@ -128,7 +141,7 @@
             organisasi
           </p>
         </div>
-        <div class="box-id">
+        <div class="box-id" style="cursor: pointer">
           <img src="image/p1.png" alt="" />
           <h3>Ide Design Website</h3>
           <p>
@@ -136,12 +149,12 @@
             perusahaan dan organisasi
           </p>
         </div>
-        <div class="box-id">
+        <div class="box-id" style="cursor: pointer">
           <img src="image/p4.png" alt="" />
           <h3>Konsultasi</h3>
           <p>Client dapat berkonsultasi mengenai fitur yang di inginkan</p>
         </div>
-        <div class="box-id">
+        <div class="box-id" style="cursor: pointer">
           <img src="image/p3.png" alt="" />
           <h3>Deployment</h3>
           <p>
@@ -165,32 +178,32 @@
       <h1 class="heading">Cara <span>Order</span></h1>
 
       <div class="box-container">
-        <div class="box">
+        <div class="box" style="cursor: pointer">
           <span class="number">1</span>
           <img src="image/g1.png" alt="" />
           <h3>Hubungi Kontak (WA atau E-mail).</h3>
         </div>
-        <div class="box">
+        <div class="box" style="cursor: pointer">
           <span class="number">2</span>
           <img src="image/g2.png" alt="" />
           <h3>Atur Jadwal Meeting.</h3>
         </div>
-        <div class="box">
+        <div class="box" style="cursor: pointer">
           <span class="number">3</span>
           <img src="image/g3.png" alt="" />
           <h3>Meeting untuk menyepakati design Website dll.</h3>
         </div>
-        <div class="box">
+        <div class="box" style="cursor: pointer">
           <span class="number">4</span>
           <img src="image/g4.png" alt="" />
           <h3>Menandatangani surat Kontrak.</h3>
         </div>
-        <div class="box">
+        <div class="box" style="cursor: pointer">
           <span class="number">5</span>
           <img src="image/g5.png" alt="" />
           <h3>Review Website.</h3>
         </div>
-        <div class="box">
+        <div class="box" style="cursor: pointer">
           <span class="number">6</span>
           <img src="image/g6.png" alt="" />
           <h3>Deployment Website.</h3>
@@ -198,6 +211,108 @@
       </div>
     </section>
     <!-- Order section ends -->
+
+    <!-- kontak section start  -->
+    <section class="contact" id="contact">
+      <h1 class="heading">Kontak <span>| & Sosial Media</span></h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="image/Get in touch-amico.png" alt="" />
+        </div>
+
+        <form action="" name="contact-dikisulung">
+          <div class="inputBox">
+            <input type="text" placeholder="nama" name="nama" />
+            <input type="email" placeholder="e-mail" name="email" />
+          </div>
+
+          <textarea
+            placeholder="Pesan"
+            name="pesan"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+
+          <button type="submit" class="btn btn-kirim">kirim</button>
+
+          <button
+            class="btn btn-primary d-none btn-loading"
+            type="button"
+            disabled
+          >
+            <span
+              class="spinner-border spinner-border-sm"
+              role="status"
+              aria-hidden="true"
+            ></span>
+            Loading...
+          </button>
+          <div
+            class="alert alert-success alert-dismissible fade show d-none my-alert"
+            role="alert"
+          >
+            <strong>Terimakasih Sudah menghubungi kami!</strong> Kami akan
+            segera menghubungi anda melalui e-mail😇
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="alert"
+              aria-label="Close"
+            ></button>
+          </div>
+        </form>
+      </div>
+
+      <div class="bo">
+        <div class="icons">
+          <i class="fa-brands fa-whatsapp"></i>
+          <p>+62 895-20<span>39-0548</span></p>
+          <a
+            href="https://api.whatsapp.com/send/?phone=6289520390548&text&type=phone_number&app_absent=0"
+            class="tombol"
+            style="text-decoration: none"
+          >
+            Hubungi<span class="fas fa-chevron-right"></span
+          ></a>
+        </div>
+        <div class="icons">
+          <i class="fa-brands fa-instagram"></i>
+          <p>@diki_sulung</p>
+          <a
+            href="https://www.instagram.com/diki_sulung/?hl=id"
+            class="tombol"
+            style="text-decoration: none"
+          >
+            Hubungi <span class="fas fa-chevron-right"></span
+          ></a>
+        </div>
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <p>diki sulung</p>
+          <a
+            href="https://www.facebook.com/profile.php?id=100089105760533"
+            class="tombol"
+            style="text-decoration: none"
+          >
+            Hubungi <span class="fas fa-chevron-right"></span
+          ></a>
+        </div>
+        <div class="icons">
+          <i class="fa-brands fa-linkedin"></i>
+          <p>diki <span>sulung</span></p>
+          <a
+            href="https://www.linkedin.com/in/diki-sulung-084531265/"
+            class="tombol"
+            style="text-decoration: none"
+          >
+            Hubungi <span class="fas fa-chevron-right"></span
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- kontak section ends -->
 
     <!-- portfolio section start  -->
     <section class="portfolio" id="portfolio">
@@ -353,51 +468,24 @@
     </section>
     <!-- portfolio section ends -->
 
-    <!-- kontak section start  -->
-    <section class="contact" id="contact">
-      <h1 class="heading">Kontak <span>| & Sosial Media</span></h1>
+    <!-- footer section -->
 
-      <div class="bo">
-        <div class="icons">
-          <i class="fa-brands fa-whatsapp"></i>
-          <p>+62 895-20<span>39-0548</span></p>
-          <a
-            href="https://api.whatsapp.com/send/?phone=6289520390548&text&type=phone_number&app_absent=0"
-            class="tombol"
-          >
-            Hubungi<span class="fas fa-chevron-right"></span
-          ></a>
-        </div>
-        <div class="icons">
-          <i class="fa-brands fa-instagram"></i>
-          <p>@diki_sulung</p>
-          <a href="https://www.instagram.com/diki_sulung/?hl=id" class="tombol">
-            Hubungi <span class="fas fa-chevron-right"></span
-          ></a>
-        </div>
-        <div class="icons">
-          <i class="fa-brands fa-facebook"></i>
-          <p>diki sulung</p>
-          <a
-            href="https://www.facebook.com/profile.php?id=100089105760533"
-            class="tombol"
-          >
-            Hubungi <span class="fas fa-chevron-right"></span
-          ></a>
-        </div>
-        <div class="icons">
-          <i class="fa-brands fa-linkedin"></i>
-          <p>diki <span>sulung</span></p>
-          <a
-            href="https://www.linkedin.com/in/diki-sulung-084531265/"
-            class="tombol"
-          >
-            Hubungi <span class="fas fa-chevron-right"></span
-          ></a>
-        </div>
-      </div>
-    </section>
-    <!-- kontak section ends -->
+    <div class="footer">
+      website development |
+      <a
+        href="https://api.whatsapp.com/send/?phone=6289520390548&text&type=phone_number&app_absent=0"
+        ><i class="fa-brands fa-whatsapp"></i></a
+      ><a href="https://www.instagram.com/diki_sulung/?hl=id"
+        ><i class="fa-brands fa-instagram"></i></a
+      ><a href="https://www.facebook.com/profile.php?id=100089105760533"
+        ><i class="fa-brands fa-facebook"></i></a
+      ><a href="https://www.linkedin.com/in/diki-sulung-084531265/"
+        ><i class="fa-brands fa-linkedin"></i></a
+      ><a href="https://github.com/dikisulung"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      | <i class="fa-regular fa-copyright"></i> 2023 diki sulung
+    </div>
 
     <!-- jquery cdn link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
@@ -405,5 +493,36 @@
 
     <!-- custom css file link -->
     <script src="main.js"></script>
+
+    <script>
+      const scriptURL =
+        'https://script.google.com/macros/s/AKfycbzXTg0XQ3ph_dhLx9sDF9nq8anGXiZzmT4uax2JNxcxISVYrONy0vEKhs5PeqF9-n2okw/exec';
+      const form = document.forms['contact-dikisulung'];
+
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('.my-alert');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => {
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            myAlert.classList.toggle('d-none');
+            form.reset();
+            console.log('Success!', response);
+          })
+          .catch((error) => console.error('Error!', error.message));
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

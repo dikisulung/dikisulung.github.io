@@ -1,9 +1,17 @@
-$(document).ready(function () {
-  $('#menu').click(function () {
-    $(this).toggleClass('fa-times');
-    $('.navbar').toggleClass('nav-toggle');
-  });
+let menu = document.querySelector('#menu-btn');
+let navbar = document.querySelector('.navbar');
 
+menu.onclick = () => {
+  menu.classList.toggle('fa-times');
+  navbar.classList.toggle('active');
+};
+
+window.onscroll = () => {
+  menu.classList.remove('fa-times');
+  navbar.classList.remove('active');
+};
+
+$(document).ready(function () {
   $(window).on('scroll load', function () {
     $(this).removeClass('fa-times');
     $('.navbar').removeClass('nav-toggle');
